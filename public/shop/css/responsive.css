@@ -1,0 +1,248 @@
+
+/* ========== Desktop, Surface, Mac ========== */
+.fixrow {
+  height:0;
+  padding-bottom: 350px;
+}
+.display {
+  display: none;
+  position: relative;
+	height: 0;
+  padding-bottom: 350px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.display .text1 {
+  width: 600px;
+	position: absolute;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+  color: #FFFFFF;
+  opacity: 0.6;
+  font-size: 8em;
+	text-align: center;
+  border-bottom: 3px solid #ffffff;
+}
+.display .text2 {
+  width: 780px;
+	position: absolute;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0.6;
+  color: #FFFFFF;
+  font-size: 1.9em;
+	text-align: center;
+}
+.separate {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+/* =========== Desktop ===========*/
+@media screen and (min-width: 800px) {
+  .product-set:hover,
+  .product-related:hover,
+  .promo-set:hover {
+  	border-color: rgba(0, 0, 0, 0.54);
+  }
+  .product-set:hover .product-img > img,
+  .product-related:hover .product-img > img,
+  .promo-set:hover img {
+  	opacity: 0.8;
+  }
+  .product-set:hover .product-img .product-size {
+  	opacity: 1;
+  }
+  .left-col .step-mobile {
+    display: none;
+  }
+  .invs:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  #summary-mobile {
+    display: block !important;
+  }
+}
+
+/* ========== iPad, Tab ==========*/
+@media screen and (max-width: 800px) {
+  #head-top {
+    display: none !important;
+  }
+  #head-fix {
+    display: none !important;
+  }
+  #head-mobile {
+    display: block !important;
+  }
+  #head-mobile-space {
+    display: block !important;
+  }
+  #filter {
+  	display: none !important;
+  }
+  #filter-mob {
+    display: block !important;
+  }
+  #filter-hide {
+    display: block !important;
+  }
+  .fixrow {
+    padding-bottom: 300px;
+  }
+  .display {
+    padding-bottom: 300px;
+  }
+  .display .text1 {
+    width: 400px;
+		font-size: 5rem;
+  }
+  .display .text2 {
+    width: 480px;
+		font-size: 1.4rem;
+  }
+  .dec-pad {
+    padding: 0 8px;
+  }
+  .pagination {
+    margin: 5px 0;
+  }
+  .product-set,
+  .product-related,
+  .promo-set {
+  	padding: 5px;
+    margin: 8px auto;
+  }
+	.product-set .product-img .product-size {
+    font-size: 11px;
+		opacity: 1 !important;
+	}
+  .product-set .product-name {
+  	padding: 8px 6px 3px;
+    height: 40px;
+  }
+  .product-related .product-name {
+  	padding: 8px 6px 3px;
+    height: 37px;
+  }
+  .product-set .product-name > h3 {
+    height: 16px;
+  	font-size: 15px;
+  }
+  .product-set .product-name > h4,
+  .product-related .product-name > h4 {
+    height: 14px;
+  	font-size: 13px;
+  }
+  .product-set .product-detail {
+    width: 60%;
+  	height: 34px;
+  	margin: 3px 6px 0;
+  	font-size: 13px;
+  }
+  #filter-mob #filter-select-mob .type .choice {
+  	height: 170px;
+  }
+  .left-col .step {
+    font-size: 17px;
+  }
+  .left-col .step li {
+    padding-left: 40px;
+  }
+  .left-col .step li:first-child {
+    padding-left: 10px;
+  }
+  .left-col .step-mobile {
+    display: none;
+  }
+  .cart-item,
+  .reserve-item,
+  .status-item {
+    padding: 5px 5px 0px !important;
+  }
+  .user-content iframe {
+  	width: 600px !important;
+    height: 450px !important;
+  }
+}
+@media screen and (min-width:768px) {
+  .menu-container {
+    width: 100% !important;
+  }
+}
+/* ========== Phone ==========*/
+@media screen and (max-width:550px) {
+  #head-top {
+    display: none !important;
+  }
+  #head-fix {
+    display: none !important;
+  }
+  #head-mobile {
+    display: block !important;
+  }
+  #head-mobile-space {
+    display: block !important;
+  }
+  #filter {
+  	display: none !important;
+  }
+  #filter-mob {
+    display: block !important;
+  }
+  #filter-space {
+    display: block !important;
+  }
+  .fixrow {
+    padding-bottom: 380px;
+  }
+  .display {
+    padding-bottom: 380px;
+  }
+  .display .text1 {
+    width: 300px;
+		font-size: 4rem;
+  }
+  .display .text2 {
+    width: 300px;
+		font-size: 1.2rem;
+  }
+  .separate {
+  	margin-top: 15px;
+  	margin-bottom: 20px;
+  }
+  #filter-mob #filter-select-mob .type .choice {
+  	height: 80px;
+  }
+  .title-input {
+    padding-right: 0px;
+  }
+  .fb-login-btn {
+    width: 100% !important;
+  }
+  .user-content iframe {
+  	width: 300px !important;
+    height: 225px !important;
+  }
+  .topic {
+    padding: 30px 8px 10px;
+  }
+}
+
+@media screen and (max-width:650px) {
+  .left-col .step {
+    display: none;
+  }
+  .left-col .step-mobile {
+    display: block;
+  }
+}

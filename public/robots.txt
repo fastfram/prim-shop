@@ -1,9 +1,2 @@
-# Algolia-Crawler-Verif: 7075DB549415365A
 User-agent: *
 Allow: /
-
-Sitemap: https://ufapro888s.info/index.xml
-Sitemap: https://ufapro888s.info/sitemap.xml
-Sitemap: https://ufapro888s.info/th/sitemap.xml
-Sitemap: https://ufapro888s.info/en/sitemap.xml
-Sitemap: https://ufapro888s.info/de/sitemap.xml

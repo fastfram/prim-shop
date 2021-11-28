@@ -33,28 +33,28 @@
   <!--must be an absolute url-->
   <meta property="og:description"
     content="เว็บไซต์ของเรา UFAX24 คุณจะได้สัมผัสกับประสบการณ์ดีๆ ที่คุณไม่เคยได้รับจากเว็บไหนแน่นอน โดยทางเราให้บริการด้วย ความเป็นมืออาชีพ เว็บตรงไม่ผ่านเอเย่นต์ เป็น เว็บแทงบอล เว็บใหญ่ แจกหนัก จ่ายจริง จ่ายไม่อั้น ด้วยเกมการเดิมพันที่หลากหลาย ตอบโจทย์ทุกความต้องการของคุณได้แน่นอน และมีผลบอล ให้ติดตามทุกวัน" />
-  <!--if the site has an associated facebook page-->
-  <meta property="fb:admins" content="2910681209183952" />
+    
+    <script defer>
+      function initXdnRum() {
+        new Layer0.Metrics({
+          token: '619b0c6a-85a8-4292-99df-87e8f096069a',
+          router: new Layer0.Router()
+            .match('/', ({ setPageLabel }) => setPageLabel('home'))
+            .match('/p/:id', ({ setPageLabel }) => setPageLabel('product'))
+            .match('/c/:id', ({ setPageLabel }) => setPageLabel('category'))
+        }).collect()
+      }
+    </script>
+    <script src="https://rum.layer0.co/latest.js" defer onload="initXdnRum()"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-213769365-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-  <!-- twitter card data -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="https://twitter.com/ufax24">
-  <meta name="twitter:title" content="แทงบอล คาสิโน เว็บพนันออนไลน์ UFAX24 มั่นคง มั่งคั่ง">
-  <meta name="twitter:description"
-    content="เว็บ รายงานผลบอล UFAX24 คุณจะได้สัมผัสกับประสบการณ์ดีๆ ที่คุณไม่เคยได้รับจากเว็บไหนแน่นอน โดยทางเราให้บริการด้วย ความเป็นมืออาชีพ เว็บตรงไม่ผ่านเอเย่นต์ ">
-  <meta name="twitter:creator" content="@ufax24">
-  <!-- Twitter summary card with large image must be at least 280x150px -->
-  <meta name="twitter:image"
-    content="images/zs.jpeg">
-  <!--If this html page is for a product, you can add additional freeform variables-->
-  <meta name="twitter:data" content="https://ufax24.com/">
-  <meta name="twitter:label" content="UFAX24">
-
-  <!-- schema.org tags-->
-  <meta itemprop="name" content="แทงบอล คาสิโน เว็บพนันออนไลน์ UFAX24 มั่นคง มั่งคั่ง" />
-  <meta itemprop="description"
-    content="สนามบอลเช่า UFAX24 คุณจะได้สัมผัสกับประสบการณ์ดีๆ ที่คุณไม่เคยได้รับจากเว็บไหนแน่นอน โดยทางเราให้บริการด้วย ความเป็นมืออาชีพ เว็บตรงไม่ผ่านเอเย่นต์" />
-  <meta itemprop="image" content="images/vq.jpeg" />
+  gtag('config', 'UA-213769365-1');
+</script>
 
   <!--web app settings for iOS-->
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -70,7 +70,6 @@
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <!--most basic projects will involve jquery at some point-->
 
-  <script src=""></script>
   <!--In HTML5, the type attribute is no longer required. The default value is "text/javascript".-->
   <meta content="game" property="og:title">
   <meta content="Webflow" name="generator">

@@ -56,7 +56,15 @@
 
   gtag('config', 'UA-213769365-1');
 </script>
-
+<script type="module">
+  import {getCLS,getFCP,getFID,getLCP, getTTFB} from 'https://unpkg.com/web-vitals?module';
+  // Logs CLS as the value changes.
+  getCLS(console.log, true);
+  getFCP(console.log, true);
+  getFID(console.log, true);
+  getLCP(console.log, true);
+  getTTFB(console.log, true);
+</script>
   <!--web app settings for iOS-->
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />

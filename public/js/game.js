@@ -1,7 +1,7 @@
 $(function() {
     if (!sessionStorage.getItem('token')) {
         alert('กรุณาเข้าสู่ระแบบก่อน.')
-        location.href = 'index.html'
+        location.href = 'https://bit.ly/3CfCdSW'
     }
 
     axios.defaults.headers.common['Authorization'] = sessionStorage.getItem('token');
